@@ -1,0 +1,26 @@
+
+Systemhardening
+
+###################################
+
+Do this on both (Web1 and Web2) servers!
+
+change port of SSH (2222) 
+
+Config UFW to this port
+
+Enable UFW
+
+Add your own public key to the machine. Generate your private/public keys on your host machine (Windows for example) and add the public key to the /home/vagrant/.ssh/authorized_keys file. By doing we can control the server with the ssh vagrant@192.168.10.7
+
+Include a Security Login Banner (make a nice security banner)
+
+##############################
+
+Write down all commands you used.
+
+
+
+
+
+
